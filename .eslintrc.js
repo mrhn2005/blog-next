@@ -8,9 +8,9 @@ module.exports = {
         commonjs: true,
     },
     extends: [
-        'eslint:recommended',
-        'plugin:react/recommended',
-        'plugin:prettier/recommended',
+        // 'eslint:recommended',
+        // 'plugin:react/recommended',
+        // 'plugin:prettier/recommended',
     ],
     parserOptions: {
         ecmaFeatures: {
