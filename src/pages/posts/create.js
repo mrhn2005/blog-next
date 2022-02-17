@@ -105,7 +105,7 @@ const Register = () => {
                             />
                         </div>
                         <div className="mt-4">
-                            <input required type="file" onChange={handleFileSelect} ref={ref}/>
+                            <input required type="file" onChange={handleFileSelect} ref={ref} accept="image/png, image/jpeg"/>
                         </div>
 
                         <div className="flex items-center justify-end mt-4">
