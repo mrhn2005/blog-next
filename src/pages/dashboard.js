@@ -40,9 +40,10 @@ const Dashboard = () => {
 
 
     function deletePost(id) {
-        postService.delete(id);
-        setPosts(null)
-        fetchPosts();
+        postService.delete(id).then((res) => {
+            setPosts(null);
+            fetchPosts();
+        });
     }
 
     return (
